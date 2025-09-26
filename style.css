@@ -1,0 +1,64 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #1db954; /* green background */
+  color: #fff;
+  line-height: 1.6;
+}
+
+.container {
+  width: 90%;
+  margin: auto;
+  max-width: 1200px;
+}
+
+.site-header {
+  background: #14833b;
+  padding: 15px 0;
+}
+
+.header-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo-group {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.logo-img {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+.nav a {
+  color: #fff;
+  margin-left: 20px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+}
+
+
+.card {
+  background: rgba(0, 0, 0, 0.3);
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 8px;
+  max-width: 800px;
+}
